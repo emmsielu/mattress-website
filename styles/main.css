@@ -19,17 +19,40 @@
 
 }
 
+.dog-image{
+  background-image: url("../images/dog.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+
+}
+
+.bed-image{
+  background-image: url("../images/bed.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+
+}
+
+.pencil-image{
+  background-image: url("../images/pencil.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+
+}
+
 /* – - - - HEADERS - - - - -  */
 
 h1{
   font-size: 2rem;
   margin-bottom: 0;
 
-
 }
 
 h2{
-
+  font-size: 1.75rem;
 
 }
 
@@ -55,6 +78,11 @@ h6{
 
 }
 
+p{
+
+
+}
+
 /* - - - - - TEXT HELPERS - - - - -*/
 
 .text-center{
@@ -73,12 +101,12 @@ h6{
 }
 
 /* - - - - - FONT HELPERS - - - - -  */
-
+/*
 .roboto-light{
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
 
-}
+} */
 
 .roboto-regular{
   font-family: 'Roboto', sans-serif;
@@ -89,5 +117,24 @@ h6{
 .roboto-bold{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+
+}
+
+
+/* - - - - - SPACING HELPERS - - - - -  */
+
+.padding-left{
+  padding-left: 5%;
+
+}
+
+.padding-right{
+  padding-right: 5%;
+
+}
+
+.padding-left-right{
+  padding-left: 5%;
+  padding-right: 5%;
 
 }
