@@ -1,0 +1,93 @@
+/*
+* CSS HINTS
+*
+* For typography we use rems (rem)
+* For sections and layouts we use percentages, vh's and vw's (%, vh, vw)
+* For anything too small to break a design we use pixels (px)
+*/
+
+*{
+  border: 1px solid #333;
+
+
+}
+
+.banner{
+  min-height: 100vh;
+  background-image: url("../images/leaves.jpg");
+  background-size: cover;
+
+}
+
+/* – - - - HEADERS - - - - -  */
+
+h1{
+  font-size: 2rem;
+  margin-bottom: 0;
+
+
+}
+
+h2{
+
+
+}
+
+h3{
+  font-size: 5rem;
+  margin-top:0;
+  margin-bottom: 0;
+
+}
+
+h4{
+
+
+}
+
+h5{
+
+
+}
+
+h6{
+
+
+}
+
+/* - - - - - TEXT HELPERS - - - - -*/
+
+.text-center{
+  text-align: center;
+
+}
+
+.text-white{
+  color: white;
+
+}
+
+.text-yellow{
+  color: #FFBE00;
+
+}
+
+/* - - - - - FONT HELPERS - - - - -  */
+
+.roboto-light{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+
+}
+
+.roboto-regular{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+
+}
+
+.roboto-bold{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+}
