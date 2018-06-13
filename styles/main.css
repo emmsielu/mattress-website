@@ -7,8 +7,15 @@
 */
 
 *{
-  border: 1px solid #999;
+  /* border: 1px solid #999; */
+  box-sizing: border-box;
 
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
 
 }
 
@@ -71,7 +78,7 @@ h5{
 }
 
 h6{
-
+  font-size: 4.5rem;
 
 }
 
@@ -80,10 +87,64 @@ p{
 
 }
 
+/* - - - - QUOTE Section - - - - -  */
+
+.quote{
+  min-height: 50vh;
+
+}
+
+.quote p{
+  font-size: 1.25;
+  opacity:.5;
+
+}
+
+.quote q{
+  font-size: 2rem;
+  line-height: 1.5;
+
+}
+
+/* - - - - FOOTER Section - - - - -  */
+
+.footer{
+  background-color: #192837;
+  min-height: 50vh;
+
+}
+
+.footer form *{
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 12px 8px;
+  border-radius: 2px;
+  font-weight: 400;
+  outline: none;
+  border: none;
+
+
+}
+
+.footer button{
+  background-color: orange;
+  color: white;
+
+
+}
+
+
 /* - - - - - TEXT HELPERS - - - - -*/
 
 .text-center{
   text-align: center;
+
+}
+
+.text-right{
+  text-align: right;
 
 }
 
@@ -98,12 +159,6 @@ p{
 }
 
 /* - - - - - FONT HELPERS - - - - -  */
-/*
-.roboto-light{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-
-} */
 
 .roboto-regular{
   font-family: 'Roboto', sans-serif;
@@ -159,3 +214,10 @@ p{
 .margin-top-one{
  margin-top:1rem;
 }
+
+/*
+.roboto-light{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+
+} */
