@@ -7,7 +7,7 @@
 */
 
 *{
-  border: 1px solid #333;
+  border: 1px solid #999;
 
 
 }
@@ -68,7 +68,6 @@ h4{
 
 h5{
   font-size: 2rem;
-
 }
 
 h6{
@@ -155,4 +154,8 @@ p{
 
 .margin-bottom-none{
   margin-bottom: 0;
+}
+
+.margin-top-one{
+ margin-top:1rem;
 }
