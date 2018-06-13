@@ -21,7 +21,7 @@
     <!-- - - - - put center in CSS for this text - - - -  -->
     <div class="col-12 text-center text-white">
       <h3 class="roboto-regular margin-y-none"><span class="text-yellow">sleep</span> like a baby</h3>
-      <h1 class="roboto-regular margin-bottom-none">the ultimate mattress solution</h1>
+      <h1 class="roboto-regular margin-y-none">the ultimate mattress solution</h1>
     </div>
 
   </section>
@@ -55,7 +55,7 @@
         <!-- - - - - put center in CSS for this text - - - -  -->
          <!-- - - - - background image in CSS - - - - - - -->
       <h5 class="margin-y-none">never underestimate the power of</h5>
-      <h4 class="margin-bottom-none margin-top-one">a good night's <span class="text-white">sleep</span></h4>
+      <h4 class="margin-bottom-none margin-top-none">a good night's <span class="text-white">sleep</span></h4>
     </div>
 
   </section>
@@ -73,24 +73,24 @@
   </section>
 
   <!-- - - - - -  -Footer type thing - - - - -  -->
-  <section class="grid-center-middle-noGutter-noBottom footer text-white">
+  <footer class="grid-center-middle-noGutter-noBottom text-white">
     <div class="col-6">
       <div class="padding-left-right">
-        <h6 class="roboto-regular margin-y-none">let's<br><span class="text-yellow">connect</span></h6>
+        <h6 class="margin-y-none">let's<br>
+        <span class="text-yellow">connect</span></h6>
         <p class="margin-bottom-none">Dragonfish bigmouth buffalo squeaker combtooth blenny lampfish orbicular batfish smalltooth sawfish croaker European eel mahseer. Golden trout round whitefish denticle herring rough pomfret man-of-war fish chain pickerel collared dogfish man-of-war fish.</p>
       </div>
     </div>
     <div class="col-6">
-      <form class="padding-left-right">
-        <input type="text" placeholder="Your name" />
-        <input type="text" placeholder="Your email" />
-        <textarea placeholder="Tell us how many mattresses you'd like"></textarea>
-        <button type="submit">Send</button>
-
+      <form class="padding-left-right" method="POST" action="https://formspree.io/emmalucybevan@gmail.com">
+        <input type="text" name="name" placeholder="Your name">
+        <input type="email" name="email" placeholder="Your email">
+        <textarea name="message" placeholder="How many mattresses would you like?"></textarea>
+        <button type="submit">SUBMIT</button>
       </form>
     </div>
 
-  </section>
+  </footer>
 
   </body>
 </html>

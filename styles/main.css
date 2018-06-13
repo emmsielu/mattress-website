@@ -19,123 +19,6 @@ body{
 
 }
 
-.banner{
-  min-height: 100vh;
-  background-image: url("../images/leaves.jpg");
-  background-size: cover;
-
-}
-
-.dog-image{
-  background-image: url("../images/dog.jpg");
-  background-size: cover;
-  background-position: center;
-  min-height: 50vh;
-
-}
-
-.bed-image{
-  background-image: url("../images/bed.jpg");
-  background-size: cover;
-  background-position: center;
-  min-height: 50vh;
-
-}
-
-.pencil-image{
-  background-image: url("../images/pencil.jpg");
-  background-size: cover;
-  background-position: left -150px;
-  min-height: 50vh;
-
-}
-
-/* – - - - HEADERS - - - - -  */
-
-h1{
-  font-size: 2rem;
-  margin-bottom: 0;
-
-}
-
-h2{
-  font-size: 1.75rem;
-
-}
-
-h3{
-  font-size: 5rem;
-
-}
-
-h4{
-  font-size: 4.5rem;
-
-}
-
-h5{
-  font-size: 2rem;
-}
-
-h6{
-  font-size: 4.5rem;
-
-}
-
-p{
-
-
-}
-
-/* - - - - QUOTE Section - - - - -  */
-
-.quote{
-  min-height: 50vh;
-
-}
-
-.quote p{
-  font-size: 1.25;
-  opacity:.5;
-
-}
-
-.quote q{
-  font-size: 2rem;
-  line-height: 1.5;
-
-}
-
-/* - - - - FOOTER Section - - - - -  */
-
-.footer{
-  background-color: #192837;
-  min-height: 50vh;
-
-}
-
-.footer form *{
-  display: block;
-  width: 100%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 12px 8px;
-  border-radius: 2px;
-  font-weight: 400;
-  outline: none;
-  border: none;
-
-
-}
-
-.footer button{
-  background-color: orange;
-  color: white;
-
-
-}
-
-
 /* - - - - - TEXT HELPERS - - - - -*/
 
 .text-center{
@@ -211,13 +94,122 @@ p{
   margin-bottom: 0;
 }
 
-.margin-top-one{
- margin-top:1rem;
+.banner{
+  min-height: 100vh;
+  background-image: url("../images/leaves.jpg");
+  background-size: cover;
+
 }
 
-/*
-.roboto-light{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+.dog-image{
+  background-image: url("../images/dog.jpg");
+  background-size: cover;
+  background-position: 50% 35%;
+  min-height: 50vh;
 
-} */
+}
+
+.bed-image{
+  background-image: url("../images/bed.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+
+}
+
+.pencil-image{
+  background-image: url("../images/pencil.jpg");
+  background-size: cover;
+  background-position: left -150px;
+  min-height: 50vh;
+
+}
+
+/* – - - - HEADERS - - - - -  */
+
+h1{
+  font-size: 2rem;
+  margin-bottom: 0;
+
+}
+
+h2{
+  font-size: 1.75rem;
+
+}
+
+h3{
+  font-size: 6rem;
+
+}
+
+h4{
+  font-size: 4.5rem;
+
+}
+
+h5{
+  font-size: 2rem;
+}
+
+h6{
+  font-size: 4.5rem;
+  line-height: .85;
+}
+
+p{
+
+
+}
+
+/* - - - - QUOTE Section - - - - -  */
+
+.quote{
+  min-height: 50vh;
+
+}
+
+.quote p{
+  font-size: 1.25;
+  opacity:.5;
+
+}
+
+.quote q{
+  font-size: 2rem;
+  line-height: -1.5;
+
+}
+
+/* - - - - FOOTER Section - - - - -  */
+
+footer{
+  background-color: #192837;
+  min-height: 75vh;
+
+}
+
+footer form *{
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 12px 8px;
+  border-radius: 2px;
+  font-weight: 400;
+  outline: none;
+  border: none;
+
+}
+
+footer button{
+  background-color: #FFBE00;
+  color: white;
+  width: 320px;
+
+}
+
+footer textarea{
+  min-height: 160px;
+
+}
