@@ -1,0 +1,40 @@
+---
+layout: default
+title: This is my about page
+people:
+  - name: joe-smith
+    description: a great team player
+    favourite-color: blue
+  - name: bob-jones
+    description: usually lazy and asleep
+    favourite-color: grey
+  - name: janet-robinson
+    description: always on time and in great spirits
+    favourite-color: orange
+---
+
+
+<section class="grid-middle">
+
+{% for item in page.people %}
+
+  <div class="col-4 text-center">
+    <div class=" padding-left-right right-border">
+      <h2>{{item.name}}</h2>
+      <p class="text-yellow">{{item.description}}</p>
+      <p>{{item.favourite-color}}</p>
+  </div>
+</div>
+
+{% endfor %}
+</section>
+
+<!-- <section class="grid-middle">
+  <!- - left block image (dog) -->
+  <!-- <div class="col-6 dog-image"></div>
+  <!- - - - - - right block - text - - - - - - -->
+  <!-- <div class="col-6">
+    <h2 class="roboto-regular padding-left-right">built to last a <span  class="text-yellow">lifetime</span></h2>
+    <p class="padding-left-right">Black mackerel brotula, lampfish lefteye flounder Redhorse sucker javelin yellowtail snapper Black triggerfish gulf menhaden. Sacramento blackfish bango crevice kelpfish gurnard codling catalufa; crocodile icefish Quillfish, "mola mola sunfish." Bala shark orbicular batfish European flounder mahi-mahi shortnose greeneye longfin escolar.</p>
+  </div>
+</section> -->

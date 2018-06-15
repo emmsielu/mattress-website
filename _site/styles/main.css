@@ -168,6 +168,13 @@ p{
 
 }
 
+
+.right-border{
+  border-right: 2px solid #a2a2a2;
+
+
+}
+
 /* - - - - QUOTE Section - - - - -  */
 
 .quote{
